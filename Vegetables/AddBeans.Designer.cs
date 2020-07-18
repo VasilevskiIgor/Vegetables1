@@ -1,4 +1,6 @@
-﻿namespace Vegetables
+﻿using System;
+
+namespace Vegetables
 {
     partial class AddBeans
     {
@@ -195,6 +197,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
